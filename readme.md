@@ -8,5 +8,5 @@ At the end of the quiz you can locally save your previous high scores.
 
 ## Screenshot
 
-
+![Image](./assets/images/quizimg.png)
 
