@@ -34,15 +34,15 @@ let questionPool = [
 
 ];
 let currentQuestionIndex = 0;
-
 function startGame() {
-  initialContainer.setAttribute("style", "display:none;");
-  timerSelect.setAttribute("style", "display:block");
-  timer.setAttribute("style", "display:block")
-  questionContainer.setAttribute("style", "display:block");
+  document.getElementById("initialContainer").style.display = "none";
+  document.getElementById("timerSelect").style.display = "block";
+  document.getElementById("timer").style.display = "block";
+  document.getElementById("questionContainer").style.display = "block";
   setTime();
   loadQuizQuestions(questionPool[currentQuestionIndex]);
 }
+
 
 function loadQuizQuestions(question) {
  questionContainer.innerHTML = question.question;
